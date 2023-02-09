@@ -39,6 +39,7 @@ var romanToInt = function (s) {
     CD: 400,
     XC: 90,
     XL: 40,
+    IX: 9,
     IV: 4,
   };
 

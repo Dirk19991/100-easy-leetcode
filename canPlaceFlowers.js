@@ -18,7 +18,6 @@ var canPlaceFlowers = function (flowerbed, n) {
   flowerbed.unshift(0);
   flowerbed.push(0);
 
-  console.log(flowerbed);
 
   for (let i = 0; i < flowerbed.length; i++) {
     if (flowerbed[i] === 0) {
@@ -35,7 +34,6 @@ var canPlaceFlowers = function (flowerbed, n) {
     result = result + Math.ceil(zeroCounter / 2) - 1;
   }
 
-  console.log(result);
 
   return result >= n;
 };

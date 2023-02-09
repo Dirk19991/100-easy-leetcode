@@ -16,8 +16,8 @@
 // Explanation: 2 does not exist in nums so return -1
 
 var search = function (nums, target) {
-  function searchB(arr, lastIndex) {
-    console.log(arr, lastIndex);
+  function searchB(arr) {
+    
     if (arr.length === 0) {
       return;
     }

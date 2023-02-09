@@ -47,7 +47,6 @@ var removeDuplicates = function (nums) {
       i--;
     }
   }
-  console.log(nums);
   return nums.length;
 };
 

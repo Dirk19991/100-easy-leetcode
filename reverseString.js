@@ -15,11 +15,11 @@ var reverseString = function (s) {
   const mid = Math.floor(s.length / 2);
 
   for (let i = 0; i < mid; i++) {
-    console.log(s[i], s[s.length - 1 - i]);
+    
     let temp = s[i];
     s[i] = s[s.length - 1 - i];
     s[s.length - 1 - i] = temp;
-    console.log(s);
+   
   }
 
   return s;

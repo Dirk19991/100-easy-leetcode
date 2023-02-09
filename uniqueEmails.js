@@ -14,8 +14,6 @@ var numUniqueEmails = function (emails) {
     .map((elem) => [elem[0].split('+')[0].replaceAll('.', ''), elem[1]])
     .map((elem) => elem.join('@'));
 
-  console.log(sortedEmails);
-
   return new Set(sortedEmails).size;
 };
 

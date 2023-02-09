@@ -38,8 +38,6 @@ var maxCount = function (banned, n, maxSum) {
     index++;
   }
 
-  console.log(allNums);
-
   return index - 1;
 };
 

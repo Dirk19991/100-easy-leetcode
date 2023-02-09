@@ -14,13 +14,8 @@ var plusOne = function (digits) {
   const num =
     digits.length >= 16 ? BigInt(digits.join('')) : +digits.join('') + 1;
 
-  console.log(
-    (num + 1n)
-      .toString()
-      .split('')
-      .map((el) => +el)
-  );
-  return digits.length >= 19
+
+  return digits.length >= 16
     ? (num + 1n)
         .toString()
         .split('')

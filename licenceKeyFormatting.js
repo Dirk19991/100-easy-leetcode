@@ -23,14 +23,14 @@ var licenseKeyFormatting = function (s, k) {
   let finalString = '';
   for (let i = 0; i < formattedString.length; i += 0) {
     if (remainder) {
-      console.log('here');
+      
       finalString += formattedString.slice(0, remainder);
       finalString += '-';
       i += remainder;
       remainder = 0;
       continue;
     } else {
-      console.log('there', i, formattedString.slice(i, k));
+     
       finalString += formattedString.slice(i, i + k);
       finalString += '-';
       i += k;

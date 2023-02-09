@@ -16,7 +16,7 @@
 var containsDuplicate = function (nums) {
   const setNums = new Set(nums);
 
-  return setNums.size === nums.length;
+  return !(setNums.size === nums.length);
 };
 
 console.log(containsDuplicate([1, 2, 3, 4]));

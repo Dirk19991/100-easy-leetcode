@@ -28,5 +28,5 @@ var reverseVowels = function (s) {
     } else {
       return letter;
     }
-  });
+  }).join('');
 };

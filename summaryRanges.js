@@ -33,7 +33,7 @@ var summaryRanges = function (nums) {
   for (let i = 1; i <= nums.length; i++) {
     const prevElement = nums[i - 1];
     const element = nums[i];
-    console.log(element);
+    
     if (element - prevElement === 1) {
       let string = '' + prevElement;
       while (nums[i + 1] - nums[i] === 1) {

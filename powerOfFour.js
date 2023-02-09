@@ -23,6 +23,7 @@ var isPowerOfFour = function (n) {
     if (y === n) {
       return true;
     }
+    x++
   }
 
   return false;
