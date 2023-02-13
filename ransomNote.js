@@ -26,6 +26,7 @@ var canConstruct = function (ransomNote, magazine) {
       hash[element]++;
     }
   }
+
   for (let i = 0; i < ransomNote.length; i++) {
     const element = ransomNote[i];
     if (!hash[element]) {
@@ -34,4 +35,5 @@ var canConstruct = function (ransomNote, magazine) {
       hash[element]--;
     }
   }
+  return true
 };

@@ -24,4 +24,6 @@ var detectCapitalUse = function (word) {
   ) {
     return true;
   }
+
+  return false
 };

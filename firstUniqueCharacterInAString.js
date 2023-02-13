@@ -25,13 +25,13 @@ var firstUniqChar = function (s) {
     }
   }
 
-  console.log(hashTable);
+
 
   const uniqueLetters = Object.entries(hashTable)
     .filter((elem) => elem[1] === 1)
     .map((elem) => elem[0]);
 
-  console.log(uniqueLetters);
+
 
   for (let i = 0; i < s.length; i++) {
     if (uniqueLetters.includes(s[i])) {

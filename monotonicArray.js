@@ -17,7 +17,7 @@ var isMonotonic = function (nums) {
   let direction;
 
   for (let i = 1; i < nums.length; i++) {
-    console.log(i, direction);
+    
     if (direction === 'increasing') {
       if (nums[i] < nums[i - 1]) return false;
     }
