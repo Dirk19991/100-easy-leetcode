@@ -54,7 +54,6 @@ var findTheArrayConcVal = function (nums) {
     let str = '';
     str += nums[left];
     str += nums[right];
-    console.log(str);
     sum += +str;
     left++;
     right--;

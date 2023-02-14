@@ -32,7 +32,7 @@ var deleteGreatestValue = function (grid) {
 
   while (count < grid[0].length) {
     const mappedGrid = grid.map((elem) => elem[count]);
-    console.log(mappedGrid);
+    
     result += Math.max(...mappedGrid);
     count++;
   }

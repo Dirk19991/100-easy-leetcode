@@ -45,7 +45,7 @@ var similarPairs = function (words) {
       hash[word]++;
     }
   });
-  console.log(Object.values(hash));
+
 
   let result = Object.values(hash).reduce(
     (acc, value) => (acc += (value * (value - 1)) / 2),
